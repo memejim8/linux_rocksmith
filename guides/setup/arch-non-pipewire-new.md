@@ -106,10 +106,10 @@ Notes:
 <details>
 	<summary>How to check if it's installed correctly</summary>
 
-	find /usr/lib/ -name "wineasio.dll"
-	find /usr/lib/ -name "wineasio.dll.so"
-	find /usr/lib32/ -name "wineasio.dll"
-	find /usr/lib32/ -name "wineasio.dll.so"
+	sudo find /usr/lib/ -name "wineasio.dll"
+	sudo find /usr/lib/ -name "wineasio.dll.so"
+	sudo find /usr/lib32/ -name "wineasio.dll"
+	sudo find /usr/lib32/ -name "wineasio.dll.so"
 
 This should output 4 paths (ignore the errors).
 </details>
